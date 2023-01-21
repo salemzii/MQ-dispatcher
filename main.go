@@ -16,7 +16,7 @@ type Alert struct {
 func main() {
 
 	log.Println("Consumer Application")
-	conn, err := amqp.Dial("amqps://tmwnunoc:EspITp82kgC9D7sVtaeJ4Cn2lF0QDnU4@shark.rmq.cloudamqp.com/tmwnunoc")
+	conn, err := amqp.Dial("")
 	if err != nil {
 		log.Fatalf("Error connecting to rabbitMq %v", err)
 	}
